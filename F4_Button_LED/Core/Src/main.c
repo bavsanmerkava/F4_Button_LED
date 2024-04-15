@@ -96,7 +96,7 @@ int main(void) {
 		/* USER CODE BEGIN 3 */
 		if (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0)) {
 			while (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0));
-			HAL_Delay(100);
+			HAL_Delay(1000);
 
 			count++;
 		}
